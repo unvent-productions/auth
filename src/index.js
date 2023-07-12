@@ -8,5 +8,5 @@ require('@unvent/mongeese')(host, port, database, auth);
  * Start the app
  */
 var Authentication = require('./auth');
-var auth = new Authentication();
-auth.start();
+var server = new Authentication();
+server.start();
