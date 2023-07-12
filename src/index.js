@@ -1,7 +1,8 @@
 /**
  * Connect to Mongo before running the app
  */
-require('@unvent/mongeese');
+let { host, port, database, auth } = require('../configs/mongo.json');
+require('@unvent/mongeese')(host, port, database, auth);
 
 /**
  * Start the app
