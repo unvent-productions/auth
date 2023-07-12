@@ -1,5 +1,5 @@
 let bodyParser = require('body-parser');
-let middleware = bodyParser.json();
+let middleware = bodyParser.urlencoded({ extended: false });
 
 module.exports = {
     order: 99,
