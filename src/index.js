@@ -1,7 +1,7 @@
 /**
  * Connect to Mongo before running the app
  */
-require('./lib/mongoose');
+require('@unvent/mongeese');
 
 /**
  * Start the app

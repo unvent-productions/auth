@@ -1,6 +1,6 @@
 {
   "name": "@unvent/auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic authentication microservice for Unvent Productions.",
   "main": "src/index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "Riley Calhoun",
   "license": "ISC",
   "dependencies": {
+    "@unvent/mongeese": "^1.0.0",
     "@unvent/webserver": "^1.0.5",
     "bcryptjs": "^2.4.3",
     "connect-redis": "^7.1.0",
