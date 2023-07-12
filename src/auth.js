@@ -10,7 +10,7 @@ class Authentication {
 
         this.server = new WebServer(
             3000,
-            "127.0.0.1",
+            "0.0.0.0",
             this.app
         );
     }
